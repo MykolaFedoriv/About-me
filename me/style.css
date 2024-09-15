@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #b8b5b5;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  .button{
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #b8b5b5;
+    background-color: #b8b5b5;
+  }
+  .btn{
+    display: block;
+    padding: 14px 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "Gupter", serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+  .button1{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #b8b5b5;
+    background-color: #b8b5b5;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+  }
+  .btn1{
+    display: block;
+    padding: 14px 10px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-family: "Gupter", serif;
+  font-weight: 500;
+  font-style: normal;
+    
+  }
+  .button2{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #393838;
+    background-color: #323131;
+    position: absolute;
+    left: 85%;
+    top: 20px;
+  }
+  .btn2{
+    display: block;
+    padding: 14px 25px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-family: "Gupter", serif;
+  font-weight: 500;
+  font-style: normal;
+    
+  }
+  h1{
+    position: absolute;
+    top: 5px;
+    left: 600px;
+    color: rgb(179, 74, 74);
+    font-family: "Gupter", serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+
+
+  .btn{
+    color: rgb(255, 255, 255); /* Початковий колір тексту */
+    transition: color 0.5s; /* Анімація зміни кольору */
+}
+
+.btn:hover {
+    color: red; /* Колір тексту при наведенні */
+}
+.btn1{
+    color: rgb(255, 255, 255); /* Початковий колір тексту */
+    transition: color 0.5s; /* Анімація зміни кольору */
+}
+
+.btn1:hover {
+    color: red; /* Колір тексту при наведенні */
+}
+
+
+.btn{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Відстань від тексту до лінії */
+    width: 100%;
+    height: 2px;
+    background-color: rgb(226, 82, 10);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+.btn1{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Відстань від тексту до лінії */
+    width: 100%;
+    height: 2px;
+    background-color: rgb(226, 82, 10);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.btn1:hover::after {
+    transform: scaleX(1);}
+    .el1{
+      position: absolute;
+      left: 65%;
+   top: 1px;
+   margin: 0;
+    }
+    .fade-in{
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+    .fahter{
+      background-color: #606060;
+      width: 100%;
+      height: 500px;
+    }
+    .el2{
+      padding: 150px 300px;
+      font-size: 40px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el3{
+      font-size: 25px;
+      position: absolute;
+      top: 400px;
+      left: 20%;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el4{
+      position: absolute;
+      top:450px ;
+      left: 700px;
+    }
+    .el5{
+      position: absolute;
+      top: 500px;
+      left: 18%;
+      font-size: 25px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el6{
+      position: absolute;
+      top: 890px;
+      left: 10%;
+      font-size: 25px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el7{
+      position: absolute;
+      top:950px ;
+      left: 800px;
+    }
+    .el8{
+      position: absolute;
+      top:1020px ;
+      left: 300px;
+    }
+    .el9{
+      position: absolute;
+      top: 1500px;
+      left: 10%;
+      font-size: 25px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el10{
+      position: absolute;
+      top:1700px ;
+      left: 600px;
+    }
+    .el11{
+      position: absolute;
+      top:2200px ;
+      left: 100px;
+      font-size: 25px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el12{
+      position: absolute;
+      top:2400px ;
+      left: 900px;
+    }
+    .el13{
+      position: absolute;
+      top:2900px ;
+      left: 100px;
+      font-size: 25px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el14{
+      position: absolute;
+      top:3000px ;
+      left: 800px;
+    }
+    .button3{
+      width: 100px;
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid #969696;
+      background-color: #969696;
+      position: absolute;
+      top:2950px ;
+      left: 500px;
+    }
+    .btn3{
+      display: block;
+      padding: 14px 25px;
+      color: white;
+      text-decoration: none;
+      position: absolute;
+      font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    }
+    .el15{
+      position: absolute;
+      top:3450px ;
+      left: 100px;
+      font-size: 25px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .el16{
+      position: absolute;
+      top:1820px ;
+      left: 100px;
+    }
+    .el17{
+      position: absolute;
+      top:1770px ;
+      left: 430px;
+    }
+    .el18{
+      position: absolute;
+      top:4100px ;
+      left: 100px;
+      font-size: 25px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
